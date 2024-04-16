@@ -1,0 +1,33 @@
+.buttons{
+  
+  font-size: 21px;
+  background-color: greenyellow;
+  font-family: 'Courier New', Courier, monospace;
+  border: 6px inset yellow;
+  overflow: left;
+  display: inline;
+  padding:5px;
+  border-radius: 10px;
+}
+
+#mylabel{
+  
+  font-size: 130px;
+  display: block;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: darkblue;
+}
+
+.buttons:active{
+  
+  
+  transition: all 0.3s ease;
+  font-size: 20px;
+  background-color: skyblue;
+  font-family: 'Courier New', Courier, monospace;
+  border: 2px outset orangered;
+  overflow: left;
+  display: inline;
+}
+
